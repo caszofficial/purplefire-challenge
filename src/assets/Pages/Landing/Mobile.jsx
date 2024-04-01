@@ -528,7 +528,8 @@ const Mobile = () => {
               fontWeight: 400,
               fontSize: "18px",
               lineHeight: "25px",
-              color: "#706458",
+              color: "#00000073",
+              width: "90%",
               mb: 2,
             }}
           >
