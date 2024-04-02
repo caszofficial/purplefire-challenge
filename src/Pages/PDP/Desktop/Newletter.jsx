@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
+import "../../../index.css";
 
 const Newletter = () => {
   return (
@@ -54,10 +55,11 @@ const Newletter = () => {
               color: "#6F6F6F",
             }}
           />
+
           <button
+            className="buttonSubscribe"
             style={{
               border: "none",
-              backgroundColor: "#E73C17",
               width: "fit-content",
               height: "73px",
               color: "#fff",

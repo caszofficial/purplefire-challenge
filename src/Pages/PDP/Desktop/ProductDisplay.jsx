@@ -1,6 +1,7 @@
 import { Box, Divider, Typography } from "@mui/material";
 import React from "react";
 import StarIcon from "@mui/icons-material/Star";
+import "../../../index.css";
 
 const ProductDisplay = () => {
   return (
@@ -13,7 +14,7 @@ const ProductDisplay = () => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "space-evenly",
-            p:"0 20px"
+            p: "0 20px",
           }}
         >
           <img
@@ -48,16 +49,15 @@ const ProductDisplay = () => {
       </Box>
       {/* product image */}
       <Box sx={{ flex: 1 }}>
-        <Box sx={{ backgroundColor: "#F1F1F1" }}>
+        <Box sx={{ backgroundColor: "#F1F1F1", width: "fit-content" }}>
           <img
-            style={{ objectFit: "cover" }}
+            style={{
+              objectFit: "cover",
+            }}
             src="https://s3-alpha-sig.figma.com/img/28ba/45f6/86b94896d9ea4225ea4cf6b97999c13c?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SEj5bp3zt848tWc53kGJx3kuXogau-XS2mFrD04tH3Xc2ymvn-RMObDqy3n7vsUd-P~ZLo6zDGcjE05lPbGUDv1k35XMbHNWw1rgQPRLLIPQLr2CFI24agWIGoiTjocxIeWEj4HngB1PQzRutTUPqkTMHsOdsCjkpj0Cr0iJSNU~oxkQk5Ob5BaNwYcyYS3Ayar0huY~iDWLXqEQ26EGBbcYIKpS9vgjuTI5xyuklrD2BX1AX96~7SedjLRp-UxFf4QmZxjo1PrBVcBPG9KYPTYtYu~FtaFZeY6dKpYlEi2QFIwmsgtJHG2NpbR4n-JxokUPjhztUxKBGLL~TZ30ng__"
             alt="Not Found"
           />
         </Box>
-        <Box
-          sx={{ backgroundColor: "#191919", opacity: "60%", width: "350px" }}
-        />
         <Typography
           sx={{
             fontFamily: "Inter",
@@ -65,6 +65,7 @@ const ProductDisplay = () => {
             fontSize: "15px",
             lineHeight: "18px",
             color: "#6F6F6F",
+            mt: 2,
           }}
         >
           *LG C2 42 (106cm) 4K Smart OLED evo TV
@@ -79,8 +80,8 @@ const ProductDisplay = () => {
                 mr: 1,
                 fontFamily: "Inter",
                 fontWeight: 500,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
               }}
             >
               Brand:
@@ -89,8 +90,8 @@ const ProductDisplay = () => {
               sx={{
                 fontFamily: "Inter",
                 fontWeight: 300,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
               }}
             >
               LG
@@ -102,8 +103,8 @@ const ProductDisplay = () => {
                 mr: 1,
                 fontFamily: "Inter",
                 fontWeight: 500,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
               }}
             >
               Model:
@@ -112,8 +113,8 @@ const ProductDisplay = () => {
               sx={{
                 fontFamily: "Inter",
                 fontWeight: 300,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
               }}
             >
               OLED42C2PSA
@@ -125,8 +126,8 @@ const ProductDisplay = () => {
                 mr: 1,
                 fontFamily: "Inter",
                 fontWeight: 500,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
               }}
             >
               Availability:
@@ -135,8 +136,8 @@ const ProductDisplay = () => {
               sx={{
                 fontFamily: "Inter",
                 fontWeight: 300,
-                fontSize: "10px",
-                lineHeight: "12px",
+                fontSize: "18px",
+                lineHeight: "19.3px",
                 mb: "5px",
               }}
             >
@@ -148,8 +149,8 @@ const ProductDisplay = () => {
               sx={{
                 fontFamily: "Inter",
                 fontWeight: 500,
-                fontSize: "14px",
-                lineHeight: "17px",
+                fontSize: "32px",
+                lineHeight: "38.7px",
                 color: "#191919",
                 mb: "5px",
               }}
@@ -158,11 +159,11 @@ const ProductDisplay = () => {
             </Typography>
           </Box>
           <Box>
-            <StarIcon sx={{ color: "#E73C17", fontSize: "10px" }} />
-            <StarIcon sx={{ color: "#E73C17", fontSize: "10px" }} />
-            <StarIcon sx={{ color: "#E73C17", fontSize: "10px" }} />
-            <StarIcon sx={{ color: "#E73C17", fontSize: "10px" }} />
-            <StarIcon sx={{ color: "#D7D7D7", fontSize: "10px" }} />
+            <StarIcon sx={{ color: "#E73C17", fontSize: "30px" }} />
+            <StarIcon sx={{ color: "#E73C17", fontSize: "30px" }} />
+            <StarIcon sx={{ color: "#E73C17", fontSize: "30px" }} />
+            <StarIcon sx={{ color: "#E73C17", fontSize: "30px" }} />
+            <StarIcon sx={{ color: "#D7D7D7", fontSize: "30px" }} />
           </Box>
           <Box
             sx={{
@@ -171,8 +172,8 @@ const ProductDisplay = () => {
                 color: "#191919",
                 fontFamily: "Inter",
                 fontWeight: 300,
-                fontSize: "11px",
-                lineHeight: "13px",
+                fontSize: "16px",
+                lineHeight: "19.3px",
               },
             }}
           >
@@ -199,8 +200,8 @@ const ProductDisplay = () => {
             mt: 2,
             display: "flex",
             flexWrap: "wrap",
-            fontSize: "12px",
-            lineHeight: "14.5px",
+            fontSize: "18px",
+            lineHeight: "21.8px",
             fontFamily: "Inter",
           }}
         >
@@ -211,7 +212,7 @@ const ProductDisplay = () => {
               color: "#E73C17",
               border: "1px solid #E73C17",
               fontWeight: 500,
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
@@ -221,7 +222,7 @@ const ProductDisplay = () => {
             sx={{
               height: "fit-content",
               width: "fit-content",
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
@@ -231,7 +232,7 @@ const ProductDisplay = () => {
             sx={{
               height: "fit-content",
               width: "fit-content",
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
@@ -241,7 +242,7 @@ const ProductDisplay = () => {
             sx={{
               height: "fit-content",
               width: "fit-content",
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
@@ -251,7 +252,7 @@ const ProductDisplay = () => {
             sx={{
               height: "fit-content",
               width: "fit-content",
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
@@ -261,11 +262,148 @@ const ProductDisplay = () => {
             sx={{
               height: "fit-content",
               width: "fit-content",
-              p: "4px 5px",
+              p: "10px 20px",
               m: "2.5px",
             }}
           >
             210 cm (83)
+          </Box>
+        </Box>
+        <Divider sx={{ m: "2px 16px" }} />
+        <Box
+          sx={{
+            p: "20px 100px",
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <Box sx={{ flex: 1 }}>
+            <Typography
+              sx={{
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "16px",
+                lineHeight: "20px",
+                color: "#191919",
+                mb: 2,
+              }}
+            >
+              USD(incl. of all taxes)
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "32px",
+                lineHeight: "39px",
+                color: "#191919",
+                mb: 2,
+              }}
+            >
+              $600.72
+              <span
+                style={{
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "24px",
+                  lineHeight: "29px",
+                  color: "#D9D9D9",
+                  textDecoration: "line-through",
+                }}
+              >
+                $800.00
+              </span>
+            </Typography>
+
+            <button
+              className="buynow"
+              style={{
+                width: "200px",
+                height: "60px",
+                border: "none",
+                color: "#fff",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "18px",
+                lineHeight: "22px",
+              }}
+            >
+              Buy Now
+            </button>
+          </Box>
+          <Box>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                // mt: 2,
+              }}
+            >
+              <Box
+                sx={{
+                  height: "60px",
+                  width: "64px",
+                  border: "1px solid #D9D9D9",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "32px",
+                }}
+              >
+                -
+              </Box>
+              <Box
+                sx={{
+                  height: "60px",
+                  width: "64px",
+                  border: "1px solid #D9D9D9",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "32px",
+                }}
+              >
+                1
+              </Box>
+              <Box
+                sx={{
+                  height: "60px",
+                  width: "64px",
+                  border: "1px solid #D9D9D9",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "32px",
+                }}
+              >
+                +
+              </Box>
+            </Box>
+            <Box>
+              <button
+                className="addtocart"
+                style={{
+                  width: "200px",
+                  height: "60px",
+                  border: "1px solid #E73C17",
+                  color: "#E73C17",
+                  fontFamily: "Inter",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "22px",
+                  marginTop: "28px",
+                }}
+              >
+                Add to Cart
+              </button>
+            </Box>
           </Box>
         </Box>
       </Box>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <Box sx={{ p: "40px 0px", backgroundColor: "#F4F5F8" }}>
+    <Box sx={{ p: "100px 0px", backgroundColor: "#F4F5F8" }}>
       <Typography
         sx={{
           fontFamily: "Inter",
@@ -12,6 +12,7 @@ const Banner = () => {
           lineHeight: "49px",
           textAlign: "center",
           color: "#191919",
+          mb: 2,
         }}
       >
         TV COLLECTION
@@ -22,7 +23,7 @@ const Banner = () => {
           fontWeight: 300,
           fontSize: "18px",
           lineHeight: "32px",
-          letterSpacing: "20%",
+          letterSpacing: "5px",
           textAlign: "center",
           color: "#191919",
         }}

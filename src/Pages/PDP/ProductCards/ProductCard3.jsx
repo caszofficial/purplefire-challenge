@@ -79,9 +79,9 @@ const ProductCard3 = () => {
         </Box>
         <Box sx={{ display: "flex", justifyContent: "center", mb: 4 }}>
           <button
+            className="buttonCart"
             style={{
               border: "none",
-              backgroundColor: "#fff",
               color: "#6F6f6F",
               padding: "10px 30px",
             }}

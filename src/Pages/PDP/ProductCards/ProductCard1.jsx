@@ -2,6 +2,7 @@ import { Box, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import "../../../index.css";
 
 const ProductCard1 = () => {
   const theme = useTheme();
@@ -83,9 +84,9 @@ const ProductCard1 = () => {
           sx={{ display: "flex", justifyContent: "center", mb: mobile ? 0 : 4 }}
         >
           <button
+            className="buttonCart"
             style={{
               border: "none",
-              backgroundColor: "#fff",
               color: "#6F6f6F",
               padding: "10px 30px",
             }}

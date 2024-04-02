@@ -83,9 +83,9 @@ const ProductCard2 = () => {
           sx={{ display: "flex", justifyContent: "center", mb: mobile ? 0 : 4 }}
         >
           <button
+            className="buttonCart"
             style={{
               border: "none",
-              backgroundColor: "#fff",
               color: "#6F6f6F",
               padding: "10px 30px",
             }}

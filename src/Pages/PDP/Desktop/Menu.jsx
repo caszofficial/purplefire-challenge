@@ -61,6 +61,7 @@ const Menu = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            color: "#E73C17",
           }}
         >
           <Typography>PRODUCT</Typography>

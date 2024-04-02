@@ -23,6 +23,42 @@ body {
   min-height: 100vh;
 }
 
+.buynow {
+  background-color: #e73c17;
+}
+
+.buynow:hover {
+  background-color: #c22900;
+}
+
+.addtocart {
+  background-color: #ffffff;
+}
+
+.addtocart:hover {
+  background-color: #f3f3f3;
+}
+
+.buttonCart {
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+}
+.buttonCart:hover {
+  background-color: #f3f3f3;
+}
+
+.buttonSubscribe {
+  background-color: #e73c17;
+}
+.buttonSubscribe:hover {
+  cursor: pointer;
+  background-color: #c22900;
+}
+
+.buttonSubscribe:focus {
+  background-color: #191919;
+}
+
 .wrapper {
   width: 100%;
   display: flex;

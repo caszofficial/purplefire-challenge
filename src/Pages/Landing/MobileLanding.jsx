@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Carrousel from "./Carrousel";
+import { IconCircleChevronDown, IconMenu } from "@tabler/icons-react";
 
 const MobileLanding = () => {
   return (
@@ -39,8 +40,7 @@ const MobileLanding = () => {
           >
             antic
           </Typography>
-
-          <Typography sx={{ fontSize: "40px" }}>=</Typography>
+          <IconMenu size={40} stroke={1} color="#fff" />
         </Box>
         <Box
           sx={{
@@ -87,15 +87,13 @@ const MobileLanding = () => {
           >
             We provide everyone with modern, trendy, quality furniture
           </Typography>
-          <Box
-            sx={{
-              margin: "10px auto",
-              width: "50px",
-              height: "50px",
-              borderRadius: "100px",
-              border: "2px solid #fff",
-            }}
-          />
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <IconCircleChevronDown
+              size={50}
+              stroke={1}
+              style={{ color: "#FFF" }}
+            />
+          </Box>
         </Box>
       </Grid>
       <Grid
