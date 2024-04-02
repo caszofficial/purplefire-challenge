@@ -2,7 +2,7 @@ import { Box, Grid } from "@mui/material";
 import React from "react";
 import Carrousel from "./Carrousel";
 
-const Desktop = () => {
+const DesktopLanding = () => {
   return (
     <Grid container sx={{ backgroundColor: "#F3EEE8" }} rowSpacing={2}>
       <Grid
@@ -806,4 +806,4 @@ const Desktop = () => {
   );
 };
 
-export default Desktop;
+export default DesktopLanding;

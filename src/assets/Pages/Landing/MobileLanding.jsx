@@ -2,13 +2,9 @@ import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Carrousel from "./Carrousel";
 
-const Mobile = () => {
-  const divStyle = {
-    height: "300px",
-    padding: "30px",
-  };
+const MobileLanding = () => {
   return (
-    <Grid container sx={{}}>
+    <Grid container>
       <Grid
         item
         xs={12}
@@ -659,4 +655,4 @@ const Mobile = () => {
   );
 };
 
-export default Mobile;
+export default MobileLanding;
