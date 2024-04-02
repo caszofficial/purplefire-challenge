@@ -1,10 +1,10 @@
 import { useMediaQuery, useTheme } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import MobileLanding from "./assets/Pages/Landing/MobileLanding";
-import DesktopLanding from "./assets/Pages/Landing/DesktopLanding";
-import MobilePDP from "./assets/Pages/PDP/MobilePDP";
-import DesktopPDP from "./assets/Pages/PDP/Desktop/DesktopPDP";
+import MobilePDP from "./Pages/PDP/MobilePDP";
+import MobileLanding from "./Pages/Landing/MobileLanding";
+import DesktopLanding from "./Pages/Landing/DesktopLanding";
+import DesktopPDP from "./Pages/PDP/Desktop/DesktopPDP";
 
 function App() {
   const theme = useTheme();

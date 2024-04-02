@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import "swiper/css";
 import "swiper/css/bundle";
-import "../../../index.css";
+import "../../index.css";
 
 const Carrousel = () => {
   return (
